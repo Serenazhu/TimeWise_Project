@@ -310,7 +310,7 @@ if st.button("See Time Journal"):
         st.plotly_chart(fig)
 
 #change button color to blue
-st.write('<style>div.stButton > button:first-child {background: linear-gradient(to right,#c5e6fc, #8ad0ff);}</style>', unsafe_allow_html=True)
+st.write('<style>div.stButton > color: black; button:first-child {background: linear-gradient(to right,#c5e6fc, #8ad0ff);}</style>', unsafe_allow_html=True)
 
 
 
