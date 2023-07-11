@@ -3,7 +3,7 @@ import sqlite3
 
 def read_data(u):
     #Connect to Database
-    conn = sqlite3.connect(r'C:\Users\seren\OneDrive\Documents\Python project\Time Management app\tm_db.db')
+    conn = sqlite3.connect('./tm_db.db')
     #Use this run sql statements
     query = "select * from journal where username = ?;"
     params = (u,)  #The parameter must be a tuple
