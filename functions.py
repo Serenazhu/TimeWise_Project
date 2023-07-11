@@ -23,7 +23,7 @@ def check_empty(un, pw):
 
 def task_list(un):  
     #Connect to Database
-    db = sqlite3.connect(r'C:\Users\seren\OneDrive\Documents\Python project\Time Management app\tm_db.db')
+    db = sqlite3.connect('./tm_db.db')
     #Use this run sql statements
     cur = db.cursor()  
     #Display public and customize tasks
