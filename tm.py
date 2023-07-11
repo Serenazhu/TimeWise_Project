@@ -291,7 +291,7 @@ def load_lottieurl(url: str):
     return r.json()
 
 with col4:
-    image = Image.open(r'C:\Users\seren\OneDrive\Documents\Python project\Time Management app\Stopwatch.png')
+    image = Image.open('./Stopwatch.png')
     st.image(image, caption=None, width=100)
     url = "https://assets1.lottiefiles.com/private_files/lf30_ohuluwv5.json"
     animation_data = load_lottieurl(url)
