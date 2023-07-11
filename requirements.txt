@@ -2,3 +2,4 @@ streamlit==1.24.0
 lottie==0.7.0
 streamlit-lottie==0.0.5
 pandas==2.0.2
+plotly==5.15.0
